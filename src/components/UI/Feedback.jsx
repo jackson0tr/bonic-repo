@@ -28,7 +28,7 @@ const Feedback = () => {
                 <div className="container">
                     <div className="slider__top-content">
                         <h2 >{t("التقيمات")}</h2>
-                        <h4 className="subtitle">{t("احصل على")} <span className="highlight">{t("تعليقات")}</span></h4>
+                        <h3 className="subtitle">{t("احصل على")} <span className="highlight">{t("تعليقات")}</span></h3>
                     </div>
 
                     <div className="slider__wrapper">
