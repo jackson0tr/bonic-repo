@@ -43,7 +43,7 @@ const Services = () => {
                                                 <i className={item.icon}></i>
                                             </div>
                                             <div className="service__title">
-                                                <h6>{t(`${item.title}`)}</h6>
+                                                <h5>{t(`${item.title}`)}</h5>
                                             </div>
                                             <div className="desc">
                                                 <p>{t(`${item.desc}`)}</p>

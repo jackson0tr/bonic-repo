@@ -12,7 +12,7 @@ const Newsletter = () => {
                     <div className="newsletter__wrapper">
                         <div className="newsletter__content">
                             <h2 className="subtitle">{t("اشترك في نشرتنا الإخبارية")}</h2>
-                            <h3>{t("احصل على الأحدث")} <span className='highlight'>{t("التحديثات")}</span> {t("منا")}</h3>
+                            <h3 className=''>{t("احصل على الأحدث")} <span className='highlight'>{t("التحديثات")}</span> {t("منا")}</h3>
                         </div>
 
                         <div className="newsletter__form">
