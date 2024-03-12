@@ -65,7 +65,7 @@
 
 .copyright a{
     cursor: pointer;
-    color: var(--link-active);
+    /* color: var(--link-active); */
 }
 
 .light-theme .quick__link-item a{
