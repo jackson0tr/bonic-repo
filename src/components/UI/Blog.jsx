@@ -56,9 +56,9 @@ const Blog = () => {
                                     {t(`${item.desc}`)}
                                 </p>
                                 <div>
-                                    <a href={item.linkUrl} className='learn__more'>
+                                    <span className='learn__more'>
                                         <i class="ri-arrow-right-line"></i>
-                                    </a>
+                                    </span>
                                 </div>
                                     </Link>
                             </div>

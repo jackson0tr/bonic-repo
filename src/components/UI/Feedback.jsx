@@ -27,8 +27,8 @@ const Feedback = () => {
             <section id="feedback">
                 <div className="container">
                     <div className="slider__top-content">
-                        <h6 className="subtitle">{t("التقيمات")}</h6>
-                        <h2>{t("احصل على")} <span className="highlight">{t("تعليقات")}</span></h2>
+                        <h2 >{t("التقيمات")}</h2>
+                        <h5 className="subtitle">{t("احصل على")} <span className="highlight">{t("تعليقات")}</span></h5>
                     </div>
 
                     <div className="slider__wrapper">

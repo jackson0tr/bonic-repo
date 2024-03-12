@@ -38,8 +38,8 @@ const Team = () => {
             <section className='our__team' id="team">
                 <div className="container">
                     <div className="team__content">
-                        <h6 className="subtitle">{t("فريقنا")}</h6>
-                        <h2>{t("مقابله مع")} <span className="highlight">{t("فريقنا")}</span></h2>
+                        <h2>{t("فريقنا")}</h2>
+                        <h6 className='subtitle'>{t("مقابله مع")} <span>{t("فريقنا")}</span></h6>
                     </div>
                     <div className="team__wrapper">
                         {
@@ -49,7 +49,7 @@ const Team = () => {
                                         <img src={item.imgUrl} alt="team member" />
                                     </div>
                                     <div className="team__details">
-                                        <h4>{t(`${item.name}`)}</h4>
+                                        <p className='subtitle'>{t(`${item.name}`)}</p>
                                         <p className="desc">{t(`${item.postion}`)}</p>
                                     
                                     <div className="team__member-social">

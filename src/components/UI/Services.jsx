@@ -30,9 +30,9 @@ const Services = () => {
             <section id="service">
                 <div className="container">
                     <div className="services__top-content">
-                        <h6 className="subtitle">{t("خدماتنا")}</h6>
+                        <h2 className="highlight">{t("خدماتنا")}</h2>
                         <h2>{t("تحقيق ربح مذهل")}</h2>
-                        <h2 className='highlight'>{t("أفضل الخدمات لدينا")}</h2>
+                        <h6 className='subtitle'>{t("أفضل الخدمات لدينا")}</h6>
                     </div>
                     <div className="service__item-wrapper">
                             {
