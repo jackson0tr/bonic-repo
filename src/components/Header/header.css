@@ -106,7 +106,6 @@ header{
 
 .light-theme .mobile__menu{
     color: #000;
-    background: #fff;
 }
 
 /* ========== RWD ========== */
@@ -122,6 +121,10 @@ header{
         background: rgba(6, 11, 26, .668);
         z-index: 99999;
         display: none;
+    }
+
+    .light-theme .menu{
+        background: #fff;
     }
 
     .menu{
