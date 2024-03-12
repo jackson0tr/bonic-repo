@@ -38,8 +38,8 @@ const Blog = () => {
             <section id="blog" className='blog'>
                 <div className='container'>
                 <div className="blog__top-content">
-                    <h6 className="subtitle">{t("مدونتنا")}</h6>
-                    <h2>{t("دعونا نلقي نظرة على لدينا")} <span className="highlight">{t("مدونة الأخيرة")}</span></h2>
+                    <h2>{t("مدونتنا")}</h2>
+                    <h3 className="subtitle">{t("دعونا نلقي نظرة على لدينا")} <span className="highlight">{t("مدونة الأخيرة")}</span></h3>
                 </div>
 
                 <div className="blog__wrapper">
@@ -48,7 +48,7 @@ const Blog = () => {
                             return(
                                 <div className="blog__item" key={index}>
                                 <Link to={`/details/${item.id}`}>
-                                <h3>{t(`${item.title}`)}</h3>
+                                <h4>{t(`${item.title}`)}</h4>
                                 <div className="blog__img">
                                     <img src={item.imgUrl} alt="photo" />
                                 </div>

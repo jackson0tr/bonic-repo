@@ -56,7 +56,7 @@
 }
 
 .copyright{
-    color: var(--heading-color);
+    color: rgba(255, 255, 255, 0.637);
     margin-top: 40px;
     font-size: .9rem;
     font-weight: 400;

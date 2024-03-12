@@ -39,7 +39,7 @@ const Team = () => {
                 <div className="container">
                     <div className="team__content">
                         <h2>{t("فريقنا")}</h2>
-                        <h4 className='subtitle'>{t("مقابله مع")} <span>{t("فريقنا")}</span></h4>
+                        <h4 >{t("مقابله مع")} <span className='subtitle'>{t("فريقنا")}</span></h4>
                     </div>
                     <div className="team__wrapper">
                         {
