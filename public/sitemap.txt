@@ -1,0 +1,2 @@
+https://bonic.vercel.app/details/:id
+https://bonic.vercel.app/
