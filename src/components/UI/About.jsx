@@ -33,9 +33,9 @@ const About = () =>{
                 <div className='container'>
                     <div className="about__wrapper">
                         <div className="about__content">
-                            <h6 className="subtitle">{t("لماذا أخترتنا؟")}</h6>
-                            <h2>{t("متخصص في إرضاء العملاء")}</h2>
-                            <h2 className="highlight">{t("التحديات المالية")}</h2>
+                            <h2 className="subtitle">{t("لماذا أخترتنا؟")}</h2>
+                            <h3>{t("متخصص في إرضاء العملاء")}</h3>
+                            <h4 className="highlight">{t("التحديات المالية")}</h4>
                             <p className="desc about__content__desc">{t("التسويق الفعّال ينطوي على إنشاء هوية علامة تجارية مقنعة، وصياغة رسائل مقنعة، وتوصيلها من خلال القنوات المناسبة للتفاعل والتأثير على العملاء.")}</p>
 
                             <div className='choose__item-wrapper'>
