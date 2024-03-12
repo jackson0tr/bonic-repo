@@ -31,8 +31,7 @@ const Services = () => {
                 <div className="container">
                     <div className="services__top-content">
                         <h2 className="highlight">{t("خدماتنا")}</h2>
-                        <h3>{t("تحقيق ربح مذهل")}</h3>
-                        <h4 className='subtitle'>{t("أفضل الخدمات لدينا")}</h4>
+                        <h3 className='subtitle'>{t("أفضل الخدمات لدينا")}</h3>
                     </div>
                     <div className="service__item-wrapper">
                             {
