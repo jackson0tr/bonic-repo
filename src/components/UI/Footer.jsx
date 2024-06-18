@@ -52,7 +52,7 @@ const Footer = () => {
     const dev =
         {
             name: 'Mahmoud Mohamed',
-            link: 'https://my-portfolio0tr.vercel.app/'
+            link: 'https://dev-mahmoud.vercel.app/'
         }
 
     const {t} = useTranslation();
